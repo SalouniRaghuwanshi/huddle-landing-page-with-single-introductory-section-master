@@ -12,22 +12,68 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+   
+    *{
+      margin: 1%;
+    }
+    body{
+     background-image: url(images/bg-desktop.svg);
+     background-color: hsl(257, 40%, 49%);
+     margin-left: 5%;
+     margin-right: 5%;
+    }
+    .container{
+      display: flex;
+    }
+    .img{
+      
+      max-width: 220px;
+      min-width: 50px;
+    }
+   .b1{
+     text-align: left;
+     margin-top: 5%;
+     color:white;
+     margin-left: 5%;
+     font-size: 20px;
+     font-family:Open Sans;
+     font-weight: 400;
+   }
+   .b2{
+     font-size: 40px;
+     font-family: Popins;
+      font-weight: 400, 600;
+   }
+   button{
+    border-color: white; 
+    padding: 15px;
+    border-radius: 25px;
+     padding-left: 40px;
+     padding-right: 40px;
+   }
+   button:hover{
+     background-color:hsl(300, 69%, 71%);
+     border-color:hsl(300, 69%, 71%);
+     color: white;
+   }
   </style>
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <header><img src="images/logo.svg" class="img"></header>
+ <div class="container">
+<img src="images/illustration-mockups.svg"  srcset="
+images/illustration-mockups-s.svg  300w,
+images/illustration-mockups-m.svg  600w,
+images/illustration-mockups-l.svg  1200w,
+images/illustration-mockups.svg 1700w
+">
+  <div class="b1"><div class="b2">Build The Community<br> Your Fans Will Love</div>
+  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion. </p>
+  <button type="submit">Register</button></div>
+  </div>
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <img src="https://fontawesome.com/v4.7.0/icon/facebook">
   </footer>
 </body>
 </html>
