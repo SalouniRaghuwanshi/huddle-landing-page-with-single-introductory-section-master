@@ -6,8 +6,6 @@
    padding: 0;
    justify-content: center;
    align-items: center;
-   background-attachment: fixed;
-   position: fixed;
    margin: 3%;
   }
   .container{
