@@ -117,7 +117,7 @@
    height: 12vw;
    width: 50vw;
      border-radius: 25px;
-      
+   margin-bottom: 1px;   
     }
     button:hover{
       background-color:hsl(300, 69%, 71%);
