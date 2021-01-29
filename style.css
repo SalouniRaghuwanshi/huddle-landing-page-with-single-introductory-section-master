@@ -85,12 +85,13 @@
        .container{
         display: flex;
         flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
       }
       .img{
         margin:0;
        padding: 0; 
        height: 10vw;
-       margin-bottom: 6px;
       }
       .img1{
         margin:0;
@@ -117,7 +118,8 @@
    height: 12vw;
    width: 50vw;
      border-radius: 25px;
-   margin-bottom: 1px;   
+   margin-bottom: 1px;
+   font-size: 5vw;   
     }
     button:hover{
       background-color:hsl(300, 69%, 71%);
