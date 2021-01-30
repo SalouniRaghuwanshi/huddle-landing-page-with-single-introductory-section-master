@@ -68,6 +68,7 @@
    border: 1px solid white;
    border-radius: 50%;
   padding: 0.7vw;
+  transition:1vw;
  }
  .icon:hover {
   cursor: pointer;
