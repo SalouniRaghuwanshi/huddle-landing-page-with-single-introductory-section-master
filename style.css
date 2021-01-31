@@ -62,11 +62,12 @@
  }
  .icon{
    color: white;
-   justify-content: center;
    align-items: center;
    border: 1px solid white;
+   width: 3vw;
+   height: auto;
    border-radius: 50%;
-  padding: 0.7vw;
+
  }
  .icon:hover {
   cursor: pointer;
